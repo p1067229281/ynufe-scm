@@ -23,7 +23,7 @@ public class LoginIntecepter implements HandlerInterceptor {
             return true;
         }
         //否则拦截并跳转到登录
-        response.sendRedirect("/admin/login");
+        response.sendRedirect("/login");
         return false;
     }
 }

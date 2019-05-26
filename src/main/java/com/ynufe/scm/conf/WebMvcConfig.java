@@ -31,14 +31,19 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/static/**")
                 .addResourceLocations("classpath:/static/");
+        registry.addResourceHandler("/*.html")
+                .addResourceLocations("classpath:/templates/");
     }
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(loginIntecepter)
                 .addPathPatterns("/**")
-                .excludePathPatterns("/admin/**")
-                .excludePathPatterns("/static/**");
+                .excludePathPatterns("/login/**")
+                .excludePathPatterns("/static/**")
+                //不拦截*.html(这样做是不对的,应该使用loginIntecepter拦截,这里是为了测试方便,能访问所有页面)
+                .excludePathPatterns("/*.html");
+
 
     }
 }
