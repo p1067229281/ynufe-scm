@@ -1,0 +1,245 @@
+2019-05-19 00:08:00.711  INFO 11811 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-19 00:08:00.715  INFO 11811 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 00:08:00.717  INFO 11811 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-19 00:08:00.721  INFO 11811 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-19 00:31:21.278  INFO 18745 --- [main] com.ynufe.scm.ScmApplicationTests        : Starting ScmApplicationTests on william-Inspiron-15-3567 with PID 18745 (started by william in /home/william/桌面/scm)
+2019-05-19 00:31:21.281  INFO 18745 --- [main] com.ynufe.scm.ScmApplicationTests        : No active profile set, falling back to default profiles: default
+2019-05-19 00:31:22.247  INFO 18745 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-19 00:31:22.273  INFO 18745 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-05-19 00:31:22.732  INFO 18745 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e39875a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 00:31:23.054  INFO 18745 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-19 00:31:23.059  WARN 18745 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-19 00:31:23.231  INFO 18745 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-19 00:31:23.315  INFO 18745 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 00:31:23.487  INFO 18745 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-19 00:31:23.489  INFO 18745 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-19 00:31:23.681  INFO 18745 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-19 00:31:23.814  INFO 18745 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-05-19 00:31:25.012  INFO 18745 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@f9b8129'
+2019-05-19 00:31:25.014  INFO 18745 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 00:31:25.476  WARN 18745 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 00:31:25.750  INFO 18745 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 00:31:26.214  INFO 18745 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-19 00:31:26.570  INFO 18745 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-19 00:31:26.600  INFO 18745 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-19 00:31:26.639  INFO 18745 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-19 00:31:26.879  INFO 18745 --- [main] com.ynufe.scm.ScmApplicationTests        : Started ScmApplicationTests in 6.085 seconds (JVM running for 6.967)
+2019-05-19 00:31:27.038  INFO 18745 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-19 00:31:27.050  INFO 18745 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 00:31:27.060  INFO 18745 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-19 00:31:27.063  INFO 18745 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-19 00:43:30.788  INFO 19789 --- [main] com.ynufe.scm.ScmApplication             : Starting ScmApplication on william-Inspiron-15-3567 with PID 19789 (started by william in /home/william/桌面/scm)
+2019-05-19 00:43:30.791  INFO 19789 --- [main] com.ynufe.scm.ScmApplication             : No active profile set, falling back to default profiles: default
+2019-05-19 00:43:32.458  INFO 19789 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-19 00:43:32.477  INFO 19789 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-05-19 00:43:32.733  INFO 19789 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$77ed1540] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 00:43:32.905  WARN 19789 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-05-19 00:43:32.920  INFO 19789 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-05-19 00:43:32.920  INFO 19789 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2017 ms
+2019-05-19 00:43:33.069  INFO 19789 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-19 00:43:33.070  WARN 19789 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-19 00:43:33.146  INFO 19789 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-19 00:43:33.175  INFO 19789 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 00:43:33.209  INFO 19789 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-19 00:43:33.210  INFO 19789 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-19 00:43:33.363  INFO 19789 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-19 00:43:33.490  INFO 19789 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-05-19 00:43:34.152  INFO 19789 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7cc2c551'
+2019-05-19 00:43:34.154  INFO 19789 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 00:43:34.420  WARN 19789 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 00:43:34.533  INFO 19789 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 00:43:34.672  INFO 19789 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-19 00:43:34.829  INFO 19789 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-19 00:43:34.841  INFO 19789 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-19 00:43:34.863  INFO 19789 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-19 00:43:35.005  INFO 19789 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2019-05-19 00:43:35.011  INFO 19789 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2019-05-19 00:43:35.051  INFO 19789 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2019-05-19 00:43:35.053  INFO 19789 --- [main] com.ynufe.scm.ScmApplication             : Started ScmApplication in 5.075 seconds (JVM running for 5.837)
+2019-05-19 00:44:51.517  INFO 19789 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-19 00:44:51.517  INFO 19789 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-19 00:44:51.525  INFO 19789 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-05-19 00:44:51.585  INFO 19789 --- [XNIO-1 task-1] HelloController        : slf4j测试
+2019-05-19 00:45:01.797  INFO 19789 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-19 00:45:01.800  INFO 19789 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 00:45:01.803  INFO 19789 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-19 00:45:01.806  INFO 19789 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-19 00:45:01.807  INFO 19789 --- [Thread-9] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 12:08:44.320  INFO 5252 --- [main] com.ynufe.scm.ScmApplication             : Starting ScmApplication on william-Inspiron-15-3567 with PID 5252 (started by william in /home/william/桌面/scm)
+2019-05-19 12:08:44.324  INFO 5252 --- [main] com.ynufe.scm.ScmApplication             : No active profile set, falling back to default profiles: default
+2019-05-19 12:08:45.320  INFO 5252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-19 12:08:45.335  INFO 5252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-05-19 12:08:45.587  INFO 5252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d32d2f97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 12:08:45.772  WARN 5252 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-05-19 12:08:45.793  INFO 5252 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-05-19 12:08:45.793  INFO 5252 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1384 ms
+2019-05-19 12:08:45.943  INFO 5252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-19 12:08:45.943  WARN 5252 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-19 12:08:46.056  INFO 5252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-19 12:08:46.094  INFO 5252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 12:08:46.146  INFO 5252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-19 12:08:46.148  INFO 5252 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-19 12:08:46.375  INFO 5252 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-19 12:08:46.475  INFO 5252 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-05-19 12:08:46.978  WARN 5252 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.ynufe.scm.model.domain.Club.clubImages, com.ynufe.scm.model.domain.Club.activitis]
+2019-05-19 12:08:46.979  INFO 5252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-19 12:08:46.981  INFO 5252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-19 12:08:46.987  INFO 5252 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-19 12:08:46.993 ERROR 5252 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.ynufe.scm.model.domain.Club.clubImages, com.ynufe.scm.model.domain.Club.activitis]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.ynufe.scm.ScmApplication.main(ScmApplication.java:14) [classes/:na]
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.ynufe.scm.model.domain.Club.clubImages, com.ynufe.scm.model.domain.Club.activitis]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 16 common frames omitted
+Caused by: org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.ynufe.scm.model.domain.Club.clubImages, com.ynufe.scm.model.domain.Club.activitis]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadQueryDetails.generate(AbstractLoadQueryDetails.java:187) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.loader.plan.exec.internal.EntityLoadQueryDetails.<init>(EntityLoadQueryDetails.java:85) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.loader.plan.exec.internal.BatchingLoadQueryDetailsFactory.makeEntityLoadQueryDetails(BatchingLoadQueryDetailsFactory.java:61) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.<init>(AbstractLoadPlanBasedEntityLoader.java:86) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:125) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:38) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byUniqueKey(EntityLoader.java:90) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byPrimaryKey(EntityLoader.java:83) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.loader.entity.plan.AbstractBatchingEntityLoaderBuilder.buildNonBatchingLoader(AbstractBatchingEntityLoaderBuilder.java:30) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.loader.entity.BatchingEntityLoaderBuilder.buildLoader(BatchingEntityLoaderBuilder.java:59) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2486) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2508) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.createLoaders(AbstractEntityPersister.java:4177) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4153) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:230) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 20 common frames omitted
+
+2019-05-19 12:09:34.467  INFO 5342 --- [main] com.ynufe.scm.ScmApplication             : Starting ScmApplication on william-Inspiron-15-3567 with PID 5342 (started by william in /home/william/桌面/scm)
+2019-05-19 12:09:34.470  INFO 5342 --- [main] com.ynufe.scm.ScmApplication             : No active profile set, falling back to default profiles: default
+2019-05-19 12:09:35.404  INFO 5342 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-19 12:09:35.420  INFO 5342 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-05-19 12:09:35.703  INFO 5342 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$99400acf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 12:09:35.876  WARN 5342 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-05-19 12:09:35.896  INFO 5342 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-05-19 12:09:35.896  INFO 5342 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1383 ms
+2019-05-19 12:09:36.025  INFO 5342 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-19 12:09:36.026  WARN 5342 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-19 12:09:36.104  INFO 5342 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-19 12:09:36.132  INFO 5342 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 12:09:36.166  INFO 5342 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-19 12:09:36.167  INFO 5342 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-19 12:09:36.340  INFO 5342 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-19 12:09:36.412  INFO 5342 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-05-19 12:09:37.121  INFO 5342 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4567fb2b'
+2019-05-19 12:09:37.125  INFO 5342 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 12:09:37.359  WARN 5342 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 12:09:37.467  INFO 5342 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 12:09:37.592  INFO 5342 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-19 12:09:37.713  INFO 5342 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-19 12:09:37.726  INFO 5342 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-19 12:09:37.749  INFO 5342 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-19 12:09:37.892  INFO 5342 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2019-05-19 12:09:37.900  INFO 5342 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2019-05-19 12:09:37.948  INFO 5342 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2019-05-19 12:09:37.950  INFO 5342 --- [main] com.ynufe.scm.ScmApplication             : Started ScmApplication in 3.887 seconds (JVM running for 4.558)
+2019-05-19 12:15:18.230  INFO 5847 --- [main] com.ynufe.scm.ScmApplication             : Starting ScmApplication on william-Inspiron-15-3567 with PID 5847 (started by william in /home/william/桌面/scm)
+2019-05-19 12:15:18.238  INFO 5847 --- [main] com.ynufe.scm.ScmApplication             : No active profile set, falling back to default profiles: default
+2019-05-19 12:15:19.358  INFO 5847 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-19 12:15:19.378  INFO 5847 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-05-19 12:15:19.676  INFO 5847 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cffb82c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 12:15:19.916  WARN 5847 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-05-19 12:15:19.931  INFO 5847 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-05-19 12:15:19.931  INFO 5847 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1589 ms
+2019-05-19 12:15:20.118  INFO 5847 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-19 12:15:20.119  WARN 5847 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-19 12:15:20.267  INFO 5847 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-19 12:15:20.352  INFO 5847 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 12:15:20.412  INFO 5847 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-19 12:15:20.414  INFO 5847 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-19 12:15:20.530  INFO 5847 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-19 12:15:20.763  INFO 5847 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-05-19 12:15:21.783  INFO 5847 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@852ef8d'
+2019-05-19 12:15:21.789  INFO 5847 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 12:15:22.098  WARN 5847 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 12:15:22.219  INFO 5847 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 12:15:22.408  INFO 5847 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-19 12:15:22.568  INFO 5847 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-19 12:15:22.580  INFO 5847 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-19 12:15:22.601  INFO 5847 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-19 12:15:22.741  INFO 5847 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2019-05-19 12:15:22.749  INFO 5847 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2019-05-19 12:15:22.788  INFO 5847 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2019-05-19 12:15:22.790  INFO 5847 --- [main] com.ynufe.scm.ScmApplication             : Started ScmApplication in 5.279 seconds (JVM running for 6.256)
+2019-05-19 12:15:29.722  INFO 5847 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-19 12:15:29.727  INFO 5847 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 12:15:29.730  INFO 5847 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-19 12:15:29.736  INFO 5847 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-19 12:15:34.710 DEBUG 6002 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-05-19 12:15:34.931  INFO 6002 --- [main] com.ynufe.scm.ScmApplication             : Starting ScmApplication on william-Inspiron-15-3567 with PID 6002 (started by william in /home/william/桌面/scm)
+2019-05-19 12:15:34.937  INFO 6002 --- [main] com.ynufe.scm.ScmApplication             : No active profile set, falling back to default profiles: default
+2019-05-19 12:15:35.829  INFO 6002 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-19 12:15:35.844  INFO 6002 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-05-19 12:15:36.122  INFO 6002 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f3b0ca4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 12:15:36.288  WARN 6002 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-05-19 12:15:36.302  INFO 6002 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-05-19 12:15:36.303  INFO 6002 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1252 ms
+2019-05-19 12:15:36.452  INFO 6002 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-19 12:15:36.453  WARN 6002 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-19 12:15:36.531  INFO 6002 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-19 12:15:36.560  INFO 6002 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 12:15:36.597  INFO 6002 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-19 12:15:36.598  INFO 6002 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-19 12:15:36.801  INFO 6002 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-19 12:15:36.892  INFO 6002 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-05-19 12:15:37.624  INFO 6002 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@28e7bb31'
+2019-05-19 12:15:37.630  INFO 6002 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 12:15:37.853  WARN 6002 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 12:15:37.947  INFO 6002 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 12:15:38.081  INFO 6002 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-19 12:15:38.197  INFO 6002 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-19 12:15:38.209  INFO 6002 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-19 12:15:38.231  INFO 6002 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-19 12:15:38.360  INFO 6002 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2019-05-19 12:15:38.366  INFO 6002 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2019-05-19 12:15:38.409  INFO 6002 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2019-05-19 12:15:38.412  INFO 6002 --- [main] com.ynufe.scm.ScmApplication             : Started ScmApplication in 4.111 seconds (JVM running for 4.671)
+2019-05-19 12:21:31.341  INFO 6002 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-19 12:21:31.343  INFO 6002 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 12:21:31.345  INFO 6002 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-19 12:21:31.348  INFO 6002 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
